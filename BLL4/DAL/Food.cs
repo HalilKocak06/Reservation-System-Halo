@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BLL4.DAL
 {
-    internal class Food
+    public class Food
     {
         public int Id { get; set; }
 
@@ -15,6 +15,10 @@ namespace BLL4.DAL
         public string Description { get; set; }
 
         public double Price { get; set; }
+
+        public ICollection<Table> Tables { get; set; }
+
+
 
 
     }

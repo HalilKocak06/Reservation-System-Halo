@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BLL4.DAL
 {
-    internal class Table
+    public class Table
     {
         public int Id { get; set; }
 
@@ -17,6 +17,8 @@ namespace BLL4.DAL
         public int WaiterId { get; set; }
 
         public Waiter Waiter { get; set; }
+
+        public ICollection<Food> Foods { get; set; }
 
 
     }

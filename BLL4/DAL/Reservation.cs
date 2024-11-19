@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BLL4.DAL
 {
-    internal class Reservation
+    public class Reservation
     {
         public int Id { get; set; }
 

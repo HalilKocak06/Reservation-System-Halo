@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BLL4.DAL
 {
-    internal class Waiter
+    public class Waiter
     {
         public int Id { get; set; }
 
