@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reservation System-Halo", "Reservation System-Halo\Reservation System-Halo.csproj", "{C084B43E-F819-4E69-8117-4EE74F6A4103}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC", "Reservation System-Halo\MVC.csproj", "{C084B43E-F819-4E69-8117-4EE74F6A4103}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL4", "BLL4\BLL4.csproj", "{DCDC7F03-352A-4E75-BA51-7B9CB816F112}"
 EndProject
