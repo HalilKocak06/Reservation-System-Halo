@@ -49,10 +49,6 @@ namespace BLL4.Services
                 return Error("Email are required");
             }
 
-            if (record.PhoneNumber <= 0)
-            {
-                return Error("Phone number must be a valid positive number");
-            }
 
             if (_db.Customers.Any(r =>
 
@@ -82,10 +78,7 @@ namespace BLL4.Services
                 return Error("Email is required");
             }
 
-            if (record.PhoneNumber <= 0)
-            {
-                return Error("Phone number must be a valid positive number");
-            }
+            
 
             var existingCustomer = _db.Customers.FirstOrDefault(c => c.Id == record.Id);
             if (existingCustomer == null)

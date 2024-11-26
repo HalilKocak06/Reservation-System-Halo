@@ -13,9 +13,9 @@ namespace BLL4.Models
 
         public string Name => Record.Name;
 
-        public string Surname => Record.Surname;
+        public string Surname => Record.Surname; // ikisini birleştirme
 
-        public int PhoneNumber => Record.PhoneNumber;
+        public string PhoneNumber => Record.PhoneNumber;
 
         public string Email => Record.Email;
 
