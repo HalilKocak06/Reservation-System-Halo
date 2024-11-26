@@ -14,7 +14,7 @@ namespace BLL4.Services.Bases
         public string Message { get; set; } = string.Empty;
 
 
-        private readonly Db _db;
+        protected readonly Db _db;
         protected ServiceBase(Db db)
         {
             _db = db;

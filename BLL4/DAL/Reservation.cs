@@ -13,13 +13,13 @@ namespace BLL4.DAL
 
         public int CustomerId { get; set; }
 
-        public Customer Customer { get; set; }
+        public Customer Customer { get; set; } //Navigatonal
 
         public DateTime Reservationdate { get; set; }
 
         public int TableId { get; set; }
 
-        public Table Table { get; set;  }
+        public Table Table { get; set;  } //Nagivational
 
 
     }
